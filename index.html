@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack Connect | Slack</title>
+    <link rel="icon" href="slacklogo.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/css/all.min.css">
+    <link rel="stylesheet" href="css/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header start -->
+    
+    <header>
+
+        <div id="container-1">
+
+            <div class="logo">
+                <div class="image-container">
+                <img src="png/slack.png" alt="logo">
+            </div>
+                <!-- <span>slack</span> -->
+
+            </div>
+
+            <!-- <div> -->
+
+            <!-- new -->
+
+            <ul class="menu">
+                <li  id="opt-1" class="list-arrow" onclick="getValue1()"><a href="#" class="drop-1">Features</a>
+                    </li>
+                
+                            
+                <li  id="opt-2" class="list-arrow" onclick="getValue2()" value="1"><a href="#" class="drop-2">Solutions</a>
+                    </li>
+                
+                <!-- <li>
+                    <select name="" id="">
+                        <option value="Solutions" >Solutions</option>
+                        <option value="hello"></option>
+                        <option value="hello"></option>
+                    </select>
+                </li> -->
+                
+                <li><a href="#">Enterprise</a></li>
+
+                <li  id="opt-3" class="list-arrow" onclick="getValue3()" value="2"><a href="#" class="drop-3">Resources</a>
+                    </li>
+                
+                <!-- <li>
+                    <select name="" id="">
+                        <option value="Resources" >Resources</option>
+                        <option value="hello"></option>
+                        <option value="hello"></option>
+                    </select>
+                </li> -->
+                
+                <li><a href="#">Pricing</a></li>
+                
+                <!-- <li>
+                    <select name="" id="">
+                        <option value="hello" ></option>
+                        <option value="hello"></option>
+                        <option value="hello"></option>
+                    </select>
+                </li> -->
+                <!-- <li><a href="#"><i class="fa fa-bars"></i></a></li> -->
+            </ul>
+                
+                <!-- old -->
+                
+                <!-- <ul class="menu"> -->
+                    <!-- <li><a href="#">Features</a></li> -->
+                    <!-- <li> -->
+                        <!-- <select name="" id="">
+                            <option value="Features" >Features</option>
+                            <option value="hello"></option>
+                            <option value="hello"></option>
+                        </select>
+                    </li> -->
+                    <!-- <li><a href="#">Solutions</a></li> -->
+                    <!-- <li>
+                        <select name="" id="">
+                            <option value="Solutions" >Solutions</option>
+                            <option value="hello"></option>
+                            <option value="hello"></option>
+                        </select>
+                    </li>
+                    <li><a href="#">Enterprise</a></li> -->
+
+                    <!-- <li><a href="#">Resources</a></li> -->
+                    <!-- <li>
+                        <select name="" id="">
+                            <option value="Resources" >Resources</option>
+                            <option value="hello"></option>
+                            <option value="hello"></option>
+                        </select>
+                    </li>
+                    <li><a href="#">Pricing</a></li> -->
+                    <!-- <li>
+                        <select name="" id="">
+                            <option value="hello" ></option>
+                            <option value="hello"></option>
+                            <option value="hello"></option>
+                        </select>
+                    </li> -->
+                    <!-- <li><a href="#"><i class="fa fa-bars"></i></a></li> -->
+                <!-- </ul> -->
+            
+            <!-- </div> -->
+            <!-- <a href="#"><i class="fa fa-bars"></i></a> -->
+            <a href="#"><svg width="18" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.52 2C1.22667 2 0.983333 1.90667 0.79 1.72C0.596667 1.52667 0.5 1.28667 0.5 1C0.5 0.713334 0.596667 0.476667 0.79 0.290001C0.983333 0.0966671 1.22667 0 1.52 0H16.48C16.7733 0 17.0167 0.0966671 17.21 0.290001C17.4033 0.476667 17.5 0.713334 17.5 1C17.5 1.28667 17.4033 1.52667 17.21 1.72C17.0167 1.90667 16.7733 2 16.48 2H1.52ZM1.52 7C1.22667 7 0.983333 6.90667 0.79 6.72C0.596667 6.52667 0.5 6.28667 0.5 6C0.5 5.71333 0.596667 5.47667 0.79 5.29C0.983333 5.09667 1.22667 5 1.52 5H16.48C16.7733 5 17.0167 5.09667 17.21 5.29C17.4033 5.47667 17.5 5.71333 17.5 6C17.5 6.28667 17.4033 6.52667 17.21 6.72C17.0167 6.90667 16.7733 7 16.48 7H1.52ZM1.52 12C1.22667 12 0.983333 11.9067 0.79 11.72C0.596667 11.5267 0.5 11.2867 0.5 11C0.5 10.7133 0.596667 10.4767 0.79 10.29C0.983333 10.0967 1.22667 10 1.52 10H16.48C16.7733 10 17.0167 10.0967 17.21 10.29C17.4033 10.4767 17.5 10.7133 17.5 11C17.5 11.2867 17.4033 11.5267 17.21 11.72C17.0167 11.9067 16.7733 12 16.48 12H1.52Z" fill="#1D1C1D"></path>
+            </svg></a>
+        </div>
+
+
+        <div id="container-2">
+
+            <div class="container-2-item">
+                <i class="fa-solid fa-magnifying-glass" width="200" height="20"></i>
+                <!-- <i class="fa fa-search" aria-hidden="true" width="200" height="20"></i> -->
+                <!-- <i class="fa fa-search"></i> -->
+                <!-- <i class="far fa-search"></i> -->
+
+            </div>
+            
+            <div class="container-2-item">
+
+                <a href="#">Sign in</a>
+            
+            </div>
+
+            <div class="container-2-item">
+
+                <button class="btn-1">talk to sales</button>
+
+                <button class="btn-2">try for free</button>
+            
+            </div>
+
+            <!-- <div class="c2">
+
+                <button class="btn-2">try for free</button>
+            
+            </div> -->
+        
+        </div>
+        </div>
+
+    </header> 
+
+    
+
+
+<!-- drop down poster -->
+<!-- one -->
+
+<section class="feature" id="dd">
+    <ul class="feature-container" id="d">
+
+        <li class="feature-block-1">
+        
+            <div class="align">
+                <ul class="block-1-container">
+                <li class="feature-content-1">
+                    <ul class="content-1-items">
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Channels</div>
+                                </div>
+                                <div class="item-footer">
+                                    Focused project spaces
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Apps and integrations</div>
+                                </div>
+                                <div class="item-footer">
+                                    Connect to other services
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Security</div>
+                                </div>
+                                <div class="item-footer">
+                                    Protect company data
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Slack Connect</div>
+                                </div>
+                                <div class="item-footer">
+                                    Shared partner channels
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Workflow Builder</div>
+                                </div>
+                                <div class="item-footer">
+                                    Automate routine actions
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Enterprise Key Management</div>
+                                </div>
+                                <div class="item-footer">
+                                    Control visibility and access
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Messaging</div>
+                                </div>
+                                <div class="item-footer">
+                                    Organised team chat
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Search</div>
+                                </div>
+                                <div class="item-footer">
+                                    Access shared knowledge
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Slack Atlas</div>
+                                </div>
+                                <div class="item-footer">
+                                    Profiles and org charts
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Huddles</div>
+                                </div>
+                                <div class="item-footer">
+                                    Audio and video calls
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>File sharing</div>
+                                </div>
+                                <div class="item-footer">
+                                    See and share files
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>
+                                        <svg class="nav_std_icon" width="24" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path clip-rule="evenodd" d="m10.9884 1.68254c-.056-.28057-.3023-.48259-.5884-.48259s-.5324.20202-.58839.48259l-.474 2.37551-.00273.0146c-.27436 1.57759-1.63599 2.90663-3.2557 3.33856l-.03377.009c-.26265.07004-.4454.30791-.4454.57974s.18275.5097.4454.57974l.03377.00901c1.61971.43192 2.98134 1.761 3.2557 3.3385l.00273.0147.474 2.3755c.05599.2805.30229.4826.58839.4826s.5324-.2021.5884-.4826l.474-2.3755.0027-.0147c.2744-1.5775 1.636-2.90658 3.2557-3.3385l-.1389-.52094.1389.52093.0338-.009c.2627-.07004.4454-.30791.4454-.57974s-.1827-.5097-.4454-.57974l-.0338-.009c-1.6197-.43193-2.9813-1.76097-3.2557-3.33856l-.0027-.0146zm-7.40891.99092c-.05445-.16334-.20731-.27351-.37948-.27351s-.32503.11017-.37947.27351l-.21026.63079c-.07963.23888-.26709.42634-.50597.50596l-.63079.21027c-.16334.05444-.27351.2073-.27351.37947s.11017.32503.27351.37947l.63079.21027c.23888.07963.42634.26708.50597.50596l.21026.63079c.05444.16334.2073.27351.37947.27351s.32503-.11017.37948-.27351l.21026-.63079c.07963-.23888.26708-.42633.50596-.50596l.63079-.21027c.16334-.05444.27351-.2073.27351-.37947s-.11017-.32503-.27351-.37947l-.63079-.21027c-.23888-.07962-.42633-.26708-.50596-.50596zm1.99999 8.00004c-.05444-.1634-.2073-.2735-.37947-.2735s-.32503.1101-.37947.2735l-.21026.6307c-.07963.2389-.26709.4264-.50597.506l-.63079.2103c-.16334.0544-.27351.2073-.27351.3795 0 .1721.11017.325.27351.3794l.63079.2103c.23888.0796.42634.2671.50597.506l.21026.6307c.05444.1634.2073.2736.37947.2736s.32503-.1102.37947-.2736l.21027-.6307c.07963-.2389.26708-.4264.50596-.506l.63079-.2103c.16334-.0544.27351-.2073.27351-.3794 0-.1722-.11017-.3251-.27351-.3795l-.63079-.2103c-.23888-.0796-.42633-.2671-.50596-.506z" fill="#611f69" fill-rule="evenodd"></path>
+                                        </svg>
+                                        Canvas</div>
+                                </div>
+                                <div class="item-footer">
+                                    Text docs, directly in Slack
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="block-1-items">
+                            <a href="">
+                                <div class="item-header">
+                                    <div>Clips</div>
+                                </div>
+                                <div class="item-footer">
+                                    Record and share info
+                                </div>
+                            </a>
+                        </li>
+                   
+                    </ul>
+                </li>
+                
+                <li class="content-2">
+                    <ul class="link-block">
+                        <li class="links link-1"><a href="">View demo</a></li>
+                        <li class="links link-2"><a href="">Download Slack</a><i class="fa-solid fa-cloud-arrow-down"id="icon-5"></i></li>
+                    </ul>
+                </li>
+            
+                </ul>
+            </div>
+
+        </li>
+
+        <li class="feature-block-2">
+            <div class="block-2-container">
+                <div class="container-2-header">
+                    FEATURED
+                </div>
+                <ul class="container-2-block">
+                    <li class="container-2-item-1">
+                        <ul class="item-1-main">
+                            <li class="item-1-body">
+                                <a href="">
+                                    <div class="story-poster">
+                                        <div class="poster-image">
+                                            <img src="./png/hidesmart.png" alt="">
+                                        </div>
+                                        <div class="story-head">Power productivity with all-new innovations in Slack</div>
+                                        <div class="story-link"><a href="">Read announcement</a> <svg fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6a.5.5 0 0 0 0 1V6zM12.854.646a.5.5 0 0 0-.708.708l.708-.708zM18 6.5l.354.354a.5.5 0 0 0 0-.708L18 6.5zm-5.854 5.146a.5.5 0 0 0 .708.708l-.708-.708zM1 7h16.5V6H1v1zm16.646-.854l-5.5 5.5.708.708 5.5-5.5-.708-.708zm-5.5-4.792l2.75 2.75.708-.708-2.75-2.75-.708.708zm2.75 2.75l2.75 2.75.708-.708-2.75-2.75-.708.708z" fill="#1264A3"/></svg></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container-2-item-2">
+                        <ul class="item-2-main">
+                            <li class="item-2-body">What is Slack?</li>
+                            <li class="item-2-body">Slack vs email</li>
+                            <li class="item-2-body">Accessibility</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+</section>
+
+<!-- one end -->
+
+<!-- two -->
+
+<section class="solutions" id="dd-2">
+    
+    <ul class="solutions-container">
+
+        <li class="solutions-block-1">
+        
+            <div class="solutions-align">
+    
+                <ul class="solutions-block-1-container">
+    
+                    <li class="solutions-content-1">
+    
+                        <ul class="solutions-content-1-items">
+                        
+                            <li class="solutions-block-1-items">
+                                <ul class="item-list-1-container">
+                                    <div class="solutions-item-head">BY DEPARTMENT</div>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Engineering</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>IT</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Customer Service</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Sales</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Project Management</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Marketing</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Human Resources</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="solutions-list-1-items">
+                                            <a href="">
+                                                <div class="solutions-item-point">
+                                                    <div>Security</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                            <li class="solutions-block-1-items-2">
+                                <ul class="item-list-1-container">
+                                    <div class="solutions-item-head">BY INDUSTRY</div>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div><svg class="nav_std_icon" width="24" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m10.9884 1.68254c-.056-.28057-.3023-.48259-.5884-.48259s-.5324.20202-.58839.48259l-.474 2.37551-.00273.0146c-.27436 1.57759-1.63599 2.90663-3.2557 3.33856l-.03377.009c-.26265.07004-.4454.30791-.4454.57974s.18275.5097.4454.57974l.03377.00901c1.61971.43192 2.98134 1.761 3.2557 3.3385l.00273.0147.474 2.3755c.05599.2805.30229.4826.58839.4826s.5324-.2021.5884-.4826l.474-2.3755.0027-.0147c.2744-1.5775 1.636-2.90658 3.2557-3.3385l-.1389-.52094.1389.52093.0338-.009c.2627-.07004.4454-.30791.4454-.57974s-.1827-.5097-.4454-.57974l-.0338-.009c-1.6197-.43193-2.9813-1.76097-3.2557-3.33856l-.0027-.0146zm-7.40891.99092c-.05445-.16334-.20731-.27351-.37948-.27351s-.32503.11017-.37947.27351l-.21026.63079c-.07963.23888-.26709.42634-.50597.50596l-.63079.21027c-.16334.05444-.27351.2073-.27351.37947s.11017.32503.27351.37947l.63079.21027c.23888.07963.42634.26708.50597.50596l.21026.63079c.05444.16334.2073.27351.37947.27351s.32503-.11017.37948-.27351l.21026-.63079c.07963-.23888.26708-.42633.50596-.50596l.63079-.21027c.16334-.05444.27351-.2073.27351-.37947s-.11017-.32503-.27351-.37947l-.63079-.21027c-.23888-.07962-.42633-.26708-.50596-.50596zm1.99999 8.00004c-.05444-.1634-.2073-.2735-.37947-.2735s-.32503.1101-.37947.2735l-.21026.6307c-.07963.2389-.26709.4264-.50597.506l-.63079.2103c-.16334.0544-.27351.2073-.27351.3795 0 .1721.11017.325.27351.3794l.63079.2103c.23888.0796.42634.2671.50597.506l.21026.6307c.05444.1634.2073.2736.37947.2736s.32503-.1102.37947-.2736l.21027-.6307c.07963-.2389.26708-.4264.50596-.506l.63079-.2103c.16334-.0544.27351-.2073.27351-.3794 0-.1722-.11017-.3251-.27351-.3795l-.63079-.2103c-.23888-.0796-.42633-.2671-.50596-.506z" fill="#611f69" fill-rule="evenodd"></path></svg>
+                                                    Technology</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Media</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Small business</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Financial services</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Retail</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Public sector</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Education</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="solutions-list-1-items">
+                                        <a href="">
+                                            <div class="solutions-item-point">
+                                                <div>Health and life sciences</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            
+                            </li>
+
+                            <li class="block-1-items">
+                                <ul class="item-list-1">
+                                    <div class="item-header"></div>
+                                        <a href="">
+                                            <div class="item-header">
+                                                <div></div>
+                                            </div>
+                                            <div class="item-footer">
+                                                
+                                            </div>
+                                        </a>
+                                </ul>
+                            
+                            </li>
+                        
+                        </ul>
+                
+                    </li>
+                
+                <li class="solutions-content-2">
+                    <ul class="solutions-link-block">
+                        <li class="solutions-links solutions-link-1"><a href="">Get a demo</a></li>
+                        <li class="solutions-links solutions-link-2"><a href="">Download Slack</a><i class="fa-solid fa-cloud-arrow-down"id="icon-5"></i></li>
+                    </ul>
+                </li>
+            
+                </ul>
+            </div>
+
+        </li>
+
+        <li class="solutions-block-2">
+            <div class="solutions-block-2-container">
+                <div class="solutions-container-2-header">
+                    FEATURED
+                </div>
+                <ul class="solutions-container-2-block">
+                    <li class="solutions-container-2-item-1">
+                        <ul class="solutions-item-1-main">
+                            <li class="solutions-item-1-body">
+                                <a href="">
+                                    <div class="solutions-story-poster">
+                                        <div class="solutions-poster-image">
+                                            <img src="./png/hidesmart2.png" alt="">
+                                        </div>
+                                        <div class="solutions-story-head">How OpenAI connects customers and expands ChatGPT with Slack</div>
+                                        <div class="solutions-story-link"><a href="">Read story</a> <svg fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6a.5.5 0 0 0 0 1V6zM12.854.646a.5.5 0 0 0-.708.708l.708-.708zM18 6.5l.354.354a.5.5 0 0 0 0-.708L18 6.5zm-5.854 5.146a.5.5 0 0 0 .708.708l-.708-.708zM1 7h16.5V6H1v1zm16.646-.854l-5.5 5.5.708.708 5.5-5.5-.708-.708zm-5.5-4.792l2.75 2.75.708-.708-2.75-2.75-.708.708zm2.75 2.75l2.75 2.75.708-.708-2.75-2.75-.708.708z" fill="#1264A3"/></svg></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="solutions-container-2-item-2">
+                        <ul class="solutions-item-2-main">
+                            <li class="solutions-item-2-body">Task management</li>
+                            <li class="solutions-item-2-body">Scale</li>
+                            <li class="solutions-item-2-body">Engagement</li>
+                            <li class="solutions-item-2-body">Trust</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+</section>
+<!-- two end -->
+
+<!-- three -->
+<section class="resources" id="dd-3">
+    <ul class="resources-container">
+
+        <li class="resources-block-1">
+        
+            <div class="resources-align">
+                <ul class="resources-block-1-container">
+                
+                    <li class="resources-content-1">
+                        <ul class="resources-content-1-items">
+                            
+                            <li class="resources-content-block c-row-1">
+                            
+                                <ul class="block-1-lists">
+
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Resources library</a></div>
+                                            </div>
+                                            
+                                        </a>
+                                    </li>
+                            
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div>
+                                                    <!-- <svg class="nav_std_icon" width="24" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path clip-rule="evenodd" d="m10.9884 1.68254c-.056-.28057-.3023-.48259-.5884-.48259s-.5324.20202-.58839.48259l-.474 2.37551-.00273.0146c-.27436 1.57759-1.63599 2.90663-3.2557 3.33856l-.03377.009c-.26265.07004-.4454.30791-.4454.57974s.18275.5097.4454.57974l.03377.00901c1.61971.43192 2.98134 1.761 3.2557 3.3385l.00273.0147.474 2.3755c.05599.2805.30229.4826.58839.4826s.5324-.2021.5884-.4826l.474-2.3755.0027-.0147c.2744-1.5775 1.636-2.90658 3.2557-3.3385l-.1389-.52094.1389.52093.0338-.009c.2627-.07004.4454-.30791.4454-.57974s-.1827-.5097-.4454-.57974l-.0338-.009c-1.6197-.43193-2.9813-1.76097-3.2557-3.33856l-.0027-.0146zm-7.40891.99092c-.05445-.16334-.20731-.27351-.37948-.27351s-.32503.11017-.37947.27351l-.21026.63079c-.07963.23888-.26709.42634-.50597.50596l-.63079.21027c-.16334.05444-.27351.2073-.27351.37947s.11017.32503.27351.37947l.63079.21027c.23888.07963.42634.26708.50597.50596l.21026.63079c.05444.16334.2073.27351.37947.27351s.32503-.11017.37948-.27351l.21026-.63079c.07963-.23888.26708-.42633.50596-.50596l.63079-.21027c.16334-.05444.27351-.2073.27351-.37947s-.11017-.32503-.27351-.37947l-.63079-.21027c-.23888-.07962-.42633-.26708-.50596-.50596zm1.99999 8.00004c-.05444-.1634-.2073-.2735-.37947-.2735s-.32503.1101-.37947.2735l-.21026.6307c-.07963.2389-.26709.4264-.50597.506l-.63079.2103c-.16334.0544-.27351.2073-.27351.3795 0 .1721.11017.325.27351.3794l.63079.2103c.23888.0796.42634.2671.50597.506l.21026.6307c.05444.1634.2073.2736.37947.2736s.32503-.1102.37947-.2736l.21027-.6307c.07963-.2389.26708-.4264.50596-.506l.63079-.2103c.16334-.0544.27351-.2073.27351-.3794 0-.1722-.11017-.3251-.27351-.3795l-.63079-.2103c-.23888-.0796-.42633-.2671-.50596-.506z" fill="#611f69" fill-rule="evenodd"></path>
+                                                    </svg>                                     -->
+                                                    <a href="#">Events</a></div>
+                                            </div>
+                                            
+                                        </a>
+                                    </li>
+                            
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Customer stories</a></div>
+                                            </div>
+                                        
+                                        </a>
+                                    </li>
+                            
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Blog</a></div>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+    
+                            <li class="resources-content-block c-row-2">
+                            
+                                <ul class="block-1-lists">
+                     
+                                                
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div>
+                                                    <svg class="nav_std_icon" width="24" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path clip-rule="evenodd" d="m10.9884 1.68254c-.056-.28057-.3023-.48259-.5884-.48259s-.5324.20202-.58839.48259l-.474 2.37551-.00273.0146c-.27436 1.57759-1.63599 2.90663-3.2557 3.33856l-.03377.009c-.26265.07004-.4454.30791-.4454.57974s.18275.5097.4454.57974l.03377.00901c1.61971.43192 2.98134 1.761 3.2557 3.3385l.00273.0147.474 2.3755c.05599.2805.30229.4826.58839.4826s.5324-.2021.5884-.4826l.474-2.3755.0027-.0147c.2744-1.5775 1.636-2.90658 3.2557-3.3385l-.1389-.52094.1389.52093.0338-.009c.2627-.07004.4454-.30791.4454-.57974s-.1827-.5097-.4454-.57974l-.0338-.009c-1.6197-.43193-2.9813-1.76097-3.2557-3.33856l-.0027-.0146zm-7.40891.99092c-.05445-.16334-.20731-.27351-.37948-.27351s-.32503.11017-.37947.27351l-.21026.63079c-.07963.23888-.26709.42634-.50597.50596l-.63079.21027c-.16334.05444-.27351.2073-.27351.37947s.11017.32503.27351.37947l.63079.21027c.23888.07963.42634.26708.50597.50596l.21026.63079c.05444.16334.2073.27351.37947.27351s.32503-.11017.37948-.27351l.21026-.63079c.07963-.23888.26708-.42633.50596-.50596l.63079-.21027c.16334-.05444.27351-.2073.27351-.37947s-.11017-.32503-.27351-.37947l-.63079-.21027c-.23888-.07962-.42633-.26708-.50596-.50596zm1.99999 8.00004c-.05444-.1634-.2073-.2735-.37947-.2735s-.32503.1101-.37947.2735l-.21026.6307c-.07963.2389-.26709.4264-.50597.506l-.63079.2103c-.16334.0544-.27351.2073-.27351.3795 0 .1721.11017.325.27351.3794l.63079.2103c.23888.0796.42634.2671.50597.506l.21026.6307c.05444.1634.2073.2736.37947.2736s.32503-.1102.37947-.2736l.21027-.6307c.07963-.2389.26708-.4264.50596-.506l.63079-.2103c.16334-.0544.27351-.2073.27351-.3794 0-.1722-.11017-.3251-.27351-.3795l-.63079-.2103c-.23888-.0796-.42633-.2671-.50596-.506z" fill="#611f69" fill-rule="evenodd"></path>
+                                                    </svg>                                    
+                                                    <a href="#">What’s new</a></div>
+                                            </div>
+                                            
+                                        </a>
+                                    </li>
+
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Developers</a></div>
+                                            </div>
+                                            
+                                        </a>
+                                    </li>
+ 
+                            
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Community</a></div>
+                                            </div>
+                                        
+                                        </a>
+                                    </li>
+                            
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">App Directory</a></div>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                            <li class="resources-content-block c-row-3">
+                            
+                                <ul class="block-1-lists">
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Watch the demo</a></div>
+                                            </div>
+                                            
+                                        </a>
+                                    </li>
+
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Partners</a></div>
+                                            </div>
+                                        
+                                        </a>
+                                    </li>
+                            
+                                    <li class="resources-block-1-items">
+                                        <a href="">
+                                            <div class="resources-item-header">
+                                                <div><a href="#">Slack Certified</a></div>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>                   
+                    </ul>
+                </li>
+                
+                <li class="resources-content-2">
+                    <ul class="resources-link-block">
+                        <li class="resources-links resources-link-1"><a href="">View demo</a></li>
+                        <li class="resources-links resources-link-2"><a href="">Download Slack</a><i class="fa-solid fa-cloud-arrow-down"id="icon-5"></i></li>
+                    </ul>
+                </li>
+            
+                </ul>
+            </div>
+
+        </li>
+
+        <li class="resources-block-2">
+            <div class="resources-block-2-container">
+                <div class="resources-container-2-header">
+                    FEATURED
+                </div>
+                <ul class="resources-container-2-block">
+                    <li class="resources-container-2-item-1">
+                        <ul class="resources-item-1-main">
+                            <li class="resources-item-1-body">
+                                <a href="">
+                                    <div class="resources-story-poster">
+                                        <div class="resources-poster-image">
+                                            <img src="./png/hidesmaer.png" alt="">
+                                        </div>
+                                        <div class="resources-story-head">Discover the future of AI at Dreamforce 2023!</div>
+                                        <div class="resources-story-link"><a href="">Watch on demand</a> <svg fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6a.5.5 0 0 0 0 1V6zM12.854.646a.5.5 0 0 0-.708.708l.708-.708zM18 6.5l.354.354a.5.5 0 0 0 0-.708L18 6.5zm-5.854 5.146a.5.5 0 0 0 .708.708l-.708-.708zM1 7h16.5V6H1v1zm16.646-.854l-5.5 5.5.708.708 5.5-5.5-.708-.708zm-5.5-4.792l2.75 2.75.708-.708-2.75-2.75-.708.708zm2.75 2.75l2.75 2.75.708-.708-2.75-2.75-.708.708z" fill="#1264A3"/></svg></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="resources-container-2-item-2">
+                        <ul class="resources-item-2-main">
+                            <li class="resources-item-2-body">Help Centre</li>
+                            <li class="resources-item-2-body">Customer support</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+</section>
+<!-- three end -->
+<!-- drop down poster -->
+
+
+
+
+    <!-- content start -->
+
+    <section class="section-container">
+
+        <div class="content-image">
+
+            <img src="png/smart.png" alt="image">
+
+        </div>
+
+        <div class="content">
+
+                <div class="head-title">
+                    <span>Slack Connect</span>
+                </div>
+
+                <h1> A better way to work with people outside your company </h1>
+
+                <p>Slack Connect transforms the way you work alongside your partners, vendors or customers by moving conversations
+                     out of siloed email threads and into the same place.</p>
+
+            <div class="content-button">
+
+                <a href="#" class="content-button-1">try now</a>
+
+                <a href="#" class="content-button-2">contact sales</a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- content-1 start -->
+
+    <section class="section-container-1">
+
+        <!-- <div > -->
+
+            <div class="content-1">
+
+                <div class="head">
+                    <h2>Get more done in Slack Connect</h2>
+                    <p class="head-p">Whether you're working with vendors or sealing deals with a client, Slack Connect is here to help.</p>
+                </div>
+
+                <ul class="row-list">
+                    <li class="row-1">
+                        <p class="title">4x</p>
+                        <p>faster deal cycles for a sales team</p>
+                    </li>
+                    <li class="row-2">
+                        <p class="title">64%</p>
+                        <p>decrease in backlog tickets for a customer support team</p>
+                    </li>
+                    <li class="row-3">
+                        <p class="title">2x</p>
+                        <p>faster close in company acquisition for a business development team</p>
+                    </li>
+                </ul>
+
+                <div class="line">
+
+                    <p>Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your organisation.</p>
+
+                </div>
+         </div>
+
+        <!-- </div> -->
+
+    </section>
+
+
+    <!-- content-2 start -->
+
+<section class="section-container-2">
+
+    <div class="container-2">
+
+        <div class="content-2-poster">
+
+            <div class="poster-container">
+
+                <div class="poster-block-1">
+                    
+                    <div class="block-1-header">
+                    
+                        <span class="company">
+                            <span>A1 Marketing Ltd.</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    
+                        <span class="user">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <span> Geeta Joshi</span>
+                        </span>
+                
+                    </div>
+                    
+                <dl class="poster-block-1-list">
+                        <dt class="list-head">
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            <span>Channels</span>
+                        </dt>
+                        <dd class="c-list-items"><span class="high"> a1-bigcorp </span></dd>
+                        <dd class="c-list-items"><span> announcements </span></dd>
+                        <dd class="c-list-items"><span> tech-alliances </span></dd>
+                        <dd class="c-list-items"><span> win-wire </span></dd>
+
+                        <dt class="list-head">
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            <span>Direct messages</span>
+                        </dt>
+                        <dd class="list-items"><i class="fa fa-heart" aria-hidden="true"></i><span> Slackbot </span></dd>
+                        <dd class="list-items"><i class="fa fa-circle" aria-hidden="true"></i><span> Geeta Joshi (you)  </span></dd>
+                        <dd class="list-items"><i class="fa fa-circle" aria-hidden="true"></i><span> Karandeep Singh </span></dd>
+                        <dd class="list-items"><i class="fa fa-circle" aria-hidden="true"></i><span> Kriti Sanyal </span></dd>
+                        <dd class="list-items"><i class="fa fa-circle" aria-hidden="true"></i><span> Fathima Parveen </span></dd>
+                        
+                    </dl>
+
+
+                </div>
+
+                <div class="poster-block-2">
+                    <div class="block-2-account">
+                        <div class="block-2-top">
+                            <div class="top-head">
+                                <!-- <i class="fa fa-hashtag" aria-hidden="true"></i> -->
+                                <span>a1-bigcorp</span>
+
+                            </div>
+                        </div>
+
+                        <div class="accounts">
+                            <div class="profile">
+                                <div class="profile-image-1">
+                                    <img src="png/pro1.png" alt="profile-image">
+                                    <i class="fa fa-square" aria-hidden="true"></i>
+                                </div>
+                                <div class="profile-deatils">
+                                    <span class="name-time">
+                                        <span class="account-name">Fathima Parveen</span>
+                                    <span class="time">13:09</span>
+                                    </span>
+                                    <span class="detail">Thanks A1 Marketing team! We'd like to move forward with the proposal. What are our next steps?</span>
+                                    <div class="react-bar">
+                                        <span class="react">
+                                            <span class="emoji">🎉</span>
+                                            <span class="no">1</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="profile p-2">
+                                <div class="profile-image-2">
+                                    <img src="png/pro2.png" alt="profile-image">
+                                    <i></i>
+                                </div>
+                                <div class="profile-deatils">
+                                    <span class="name-time">
+                                        <span class="account-name">Geeta Joshi</span>
+                                        <span class="time">13:15</span>
+                                </span>
+                                    <span class="detail">Amazing! Let me share the contract to be signed here.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block-2-message">
+                        <div class="notify">
+                            <span><i class="fa fa-square" aria-hidden="true"></i></span>
+                            <div class="text">
+                                <span>Big Corp</span> is in this channel
+                            </div>
+                        </div>
+
+                        <div class="message-box">
+                            <div class="msg-box">
+                                <span class="box-icon">
+                                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                                </span>
+                                <span class="input">Message #a1-bigcorp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+        <div class="content-2">
+
+            <!-- 
+                <div class="head-title">
+                    <span>Slack Connect</span>
+                </div> -->
+
+
+                <h1> Connect faster with your partners </h1>
+
+                <ul class="content-2-points">
+                    <li>
+
+                        <div class="points-0">
+                            <!-- <div class="align"><i class="fa fa-check-circle"></i></div> -->
+                            <div class="align-0"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align-0"><span>Bring communication out of inboxes and into channels, where you can <a href="#">work quickly and collaboratively with outside organisations</a> </span></div>
+                      </div>
+                    
+                    </li>
+                    
+                    <li>
+                    
+                    <li>
+
+                        <div class="points-0">
+                            <!-- <div class="align-0"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align-0"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align-0"><span><a href="#">Strengthen client relationships</a> in channels to provide top-tier enterprise support and drastically decrease response times</span></div>
+                        </div>
+                    
+                    </li>
+                    
+                    <li>
+                    
+                        <div class="points-0">
+                            <!-- <div class="align-0"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align-0"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align-0"><span>Send messages and share files in real time to build collective insights along the way</span></div>
+                        </div>
+                    
+                    </li>
+                </ul>
+
+
+                <p><a href="#">Get started with Slack Connect </a> <span><img src="./png/left.svg" alt=""></span> </p>
+                <!-- <p><a href="#">Learn more about Slack’s enterprise-grade security</a><i class="far fa-long-arrow-right"></i></p> -->
+
+        </div>
+    </div>
+</section>
+
+                
+
+
+
+
+
+
+
+    <!-- content-3 start -->
+
+    <section class="section-container-3">
+
+        <div class="content-3-image">
+
+            <img src="png/smart2.png" alt="image">
+
+        </div>
+
+        <div class="content-3">
+<!-- 
+                <div class="head-title">
+                    <span>Slack Connect</span>
+                </div> -->
+
+
+                <h1> Connect securely with outside organisations </h1>
+
+                <ul class="content-3-points">
+                    <li>
+
+                        <div class="points">
+                            <!-- <div class="align"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align"><span>Keep your work secure with Slack’s enterprise-grade security features and compliance standards </span></div>
+                      </div>
+                    
+                    </li>
+                    
+                    <li>
+                    
+                    <li>
+
+                        <div class="points">
+                            <!-- <div class="align"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align"><span>Gain secure access to communicate and collaborate confidently with partner organisations</span></div>
+                        </div>
+                    
+                    </li>
+                    
+                    <li>
+                    
+                        <div class="points">
+                            <!-- <div class="align"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align"><span>Reduce your team’s exposure to the email phishing and spam attacks that come with email</span></div>
+                        </div>
+                    
+                    </li>
+                </ul>
+
+
+                <p><a href="#">Learn more about Slack’s enterprise-grade security </a><span><img src="./png/left.svg" alt=""></span></p>
+                <!-- <p><a href="#">Learn more about Slack’s enterprise-grade security</a><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p> -->
+
+        </section>
+
+                
+
+
+                    <!-- content-4 start -->
+
+    <section class="section-container-4">
+
+        <div class="content-4-image">
+
+            <img src="png/smart3.jpg" alt="image">
+
+        </div>
+
+        <div class="content-4">
+
+                <h1> Connect tools and automate workflows </h1>
+
+                <ul class="content-4-points">
+                    <li>
+
+                        <div class="points-2">
+                            <!-- <div class="align"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align-2"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align-2"><span>Easily book meetings, share documents and simplify various other routine tasks with apps </span></div>
+                      </div>
+                    
+                    </li>
+                    
+                    <li>
+                    
+                    <li>
+
+                        <div class="points-2">
+                            <!-- <div class="align"><i class="fas fa-check-circle"></i></div> -->
+                            <div class="align-2"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align-2"><span>Streamline processes and speed up collaboration by building and connecting new workflows across organisations</span></div>
+                        </div>
+                    
+                    </li>
+                    
+                    <!-- <li>
+                    
+                        <div class="points">
+                            <div class="align"><i class="fa-solid fa-circle-check"></i></div>
+                            <div class="align"><span>Reduce your team’s exposure to the email phishing and spam attacks that come with email</span></div>
+                        </div>
+                    
+                    </li> -->
+                </ul>
+
+
+                <p><a href="#">Apps to use in Slack Connect</i></a> <span><img src="./png/left.svg" alt=""></span></p>
+
+        </section>
+
+<!-- content-6 start -->
+
+<section class="section-container-6">
+
+    <!-- <div > -->
+
+        <div class="content-6">
+
+            <div class="head-6">
+                <h2>How to get started</h2>
+                <p class="head-6-p">It only takes a few clicks to start working closely with vendors, customers and more
+
+                </p>
+            </div>
+
+            <ul class="row-list-6">
+            
+                <li class="cards">
+                    <!-- <i class="fa fa-hashtag" aria-hidden="true"></i> -->
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h3> <strong>1. Create the channel</strong></h3>
+                    <p class="align-line-1">Click the + button next to Channels in your sidebar. Name the channel, and click Create.</p>
+                </li>
+
+                <li class="cards">
+                    <!-- <i class="fa fa-paper-plane-o" aria-hidden="true"></i> -->
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <h3><strong>2. Send the invite</strong></h3>
+                    <p class="align-line-2">Invite your partner right from Slack. If you're on the Business+ or Enterprise Grid subscription, you can also copy and share the link provided.</p>
+                </li>
+
+                <li class="cards">
+                    <!-- <i class="fa fa-handshake-o" aria-hidden="true"></i> -->
+                    <i class="fa-solid fa-hands-clapping"></i>
+                    <h3><strong>3. Wait for your partner</strong></h3>
+                    <p class="align-line-3">After they click on the link, they’ll be taken back to Slack to accept and set up the channel on their end.</p>
+                </li>
+
+                <li class="cards">
+                    <!-- <i class="fa fa-user-o" aria-hidden="true"></i> -->
+                    <i class="fa-solid fa-user-check"></i>
+                    <h3><strong>4. Get admin approval</strong></h3>
+                    <p class="align-line-4">Depending on your settings, the invitation may be sent to an admin on each team for approval.</p>
+                </li>
+            
+            </ul>
+
+            <!-- <div class="line-6">
+
+                <p>Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your organisation.</p>
+
+            </div> -->
+     </div>
+
+    <!-- </div> -->
+
+</section>
+
+    <!-- content-7 start -->
+
+<section class="section-container-7">
+
+    <div class="container-7">
+
+        <div class="content-7-image">
+
+            <img src="png/smart6.png" alt="image">
+
+        </div>
+
+        <div class="content-7">
+
+                <h1> Built for roles of all types </h1>
+
+                <p>Slack Connect allows you to build deeper relationships with all the people that you work with, no matter the profession.</p>
+
+            <div class="content-7-cards">
+
+                <div class="cards-7">
+
+                    <!-- <a href="#"> -->
+                        <div class="card-7-items">
+                            
+                            <!-- <i class="fa fa-briefcase" aria-hidden="true"></i> -->
+                            <i class="fa-solid fa-briefcase"></i>
+
+                            <span class="card-7-head">Sales</span>
+
+                            <span class="card-7-para">Close deals with prospects faster</span>
+                            
+                            <span class="card-7-icon-2"><svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg></span>
+                        </div>
+                
+                    <!-- </a> -->
+
+                           <!-- <a href="#"> -->
+                            <div class="card-7-items">
+                            
+                                <!-- <i class="fa fa-bullseye" aria-hidden="true"></i> -->
+                                <i class="fa-solid fa-bullseye"></i>
+
+                                <span class="card-7-head">Customer success</span>
+    
+                                <span class="card-7-para">Build stronger customer relationships</span>
+                                
+                                <span class="card-7-icon-2"><svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg></span>
+                            </div>
+                    
+                        <!-- </a> -->
+
+                               <!-- <a href="#"> -->
+                                <div class="card-7-items">
+                            
+                                    <!-- <i class="fa fa-user-plus" aria-hidden="true"></i> -->
+                                    <i class="fa-solid fa-user-plus"></i>
+        
+                                    <span class="card-7-head">Service</span>
+        
+                                    <span class="card-7-para">Resolve customer issues faster</span>
+                                    
+                                    <span class="card-7-icon-2"><svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg></span>
+                                </div>
+                        
+                            <!-- </a> -->
+
+                                   <!-- <a href="#"> -->
+                        <div class="card-7-items">
+                            
+                            <!-- <i class="fa fa-bullhorn" aria-hidden="true"></i> -->
+                            <i class="fa-solid fa-bullhorn"></i>
+
+                            <span class="card-7-head">Marketing</span>
+
+                            <span class="card-7-para">Work faster with agency partners</span>
+                            
+                            <span class="card-7-icon-2"><svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg></span>
+                        </div>
+                
+                    <!-- </a> -->
+
+                           <!-- <a href="#"> -->
+                            <div class="card-7-items">
+                            
+                                <!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+                                <i class="fa-solid fa-gear"></i>
+    
+                                <span class="card-7-head">Operations</span>
+    
+                                <span class="card-7-para">Work quickly with vendors and suppliers</span>
+                                
+                                <span class="card-7-icon-2"><svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg></span>
+                            </div>
+                    
+                        <!-- </a> -->
+
+                               <!-- <a href="#"> -->
+                                <div class="card-7-items">
+                            
+                                    <!-- <i class="fa fa-line-chart" aria-hidden="true"></i> -->
+                                    <i class="fa-solid fa-chart-line"></i>
+        
+                                    <span class="card-7-head">Business development</span>
+        
+                                    <span class="card-7-para">Work quickly with partners on joint initiatives</span>
+                                    
+                                    <span class="card-7-icon-2"><svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg></span>
+                                </div>
+                        
+                            <!-- </a> -->
+                
+                </div>
+            
+            </div>
+        
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- content-8 start -->
+
+<section class="section-container-8">
+
+    
+    <div class="content-8-block-1">
+
+            <div class="head-8">
+                
+                <div class="h1">
+                <h2>Join the 100,000+ organisations working in Slack Connect</h2>
+                </div>
+                
+                <p class="link-8-block">
+                <a href="#" class="head-link">See all customer stories<svg fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6a.5.5 0 0 0 0 1V6zM12.854.646a.5.5 0 0 0-.708.708l.708-.708zM18 6.5l.354.354a.5.5 0 0 0 0-.708L18 6.5zm-5.854 5.146a.5.5 0 0 0 .708.708l-.708-.708zM1 7h16.5V6H1v1zm16.646-.854l-5.5 5.5.708.708 5.5-5.5-.708-.708zm-5.5-4.792l2.75 2.75.708-.708-2.75-2.75-.708.708zm2.75 2.75l2.75 2.75.708-.708-2.75-2.75-.708.708z" fill="#1264A3"/></svg></a>
+                </p>
+            
+            </div>
+
+        <div class="owl-carousel slid">    
+            <div class="content-8-block-2 ">
+
+                <div class=" block-2 ">
+
+                    <div class="block-2-body">
+
+                        <!-- <a href="#" class="c-8-link"> -->
+                            <div class="block-2-post">
+                                
+                                <div class="post-image">
+                                    <img src="png/smart5.jpg" alt="post-image">
+                                </div>
+
+                                <div class="post-content">
+
+                                    <figure class="sub-image">
+                                        <img src="png/sub.png" alt="icon">
+                                    </figure>
+
+                                    <p class="post-para">
+                                        ‘Slack helps us to drive a culture of one global team that is accessible and works closely and cohesively together to deliver great things for our clients and users.’
+                                    </p>
+
+                                    <div class="post-clint">
+
+                                        <span class="name">Andrew Walsh</span>
+
+                                        <span class="position">CEO</span>
+
+                                        <div class="post-more more">
+
+                                            <span>Read Story</span>
+                    
+                                            <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+                                            <svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#1264A3" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg>
+                                            <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            
+                            </div>
+                        <!-- </a> -->
+
+                    </div>
+
+                </div>
+            </div>
+                <!-- <div class="arrow">
+                    <div class="slid-icon">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div> -->
+
+                <!-- extra -->
+                <div class="content-8-block-2 ">
+                    <div class=" block-2 ">
+                <div class="block-2-body">
+
+                    <!-- <a href="#"> -->
+                        <div class="block-2-post">
+                            
+                            <div class="post-2-image">
+                                <img src="png/post.jpg" alt="post-image">
+                            </div>
+
+                            <div class="post-content">
+
+                                <figure class="sub-image">
+                                    <img src="png/xero.png" alt="icon">
+                                </figure>
+
+                                <p class="post-para">
+                                    “Slack is ingrained in the way we communicate and work at Xero. It has enabled faster and more transparent information sharing across our teams, improving employee engagement and ultimately making it easier to build beautiful products.”
+                                </p>
+
+                                <div class="post-clint">
+
+                                    <span class="name">Levi Allan </span>
+
+                                    <span class="position">Executive General Manager - Practice and Compliance</span>
+
+                                    <div class="post-more-2 more">
+
+                                        <span>Read Story</span>
+                
+                                        <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+                                        <svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#1264A3" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg>
+                                        <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                    <!-- </a> -->
+ 
+                </div>      
+</div>
+</div>
+                <!-- <div class="arrow">
+                    <div class="slid-icon">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+ -->
+                <div class="content-8-block-2 ">
+                    <div class=" block-2 ">
+                    <div class="block-2-body"> 
+
+                        <!-- <a href="#"> -->
+                            <div class="block-2-post">
+                                
+                                <div class="post-3-image">
+                                    <img src="png/post2.jpg" alt="post-image">
+                                </div>
+
+                                <div class="post-content">
+
+                                    <figure class="sub-image">
+                                        <img src="png/deli.png" alt="icon">
+                                    </figure>
+
+                                    <p class="post-para">
+                                        “There are all these different pieces of custom functionality that we’ve been able to add to Slack. As a tech business, that’s really enticing. We’ve been able to take Slack and not just use it out of the box – but really make it our own.”
+                                    </p>
+
+                                    <div class="post-clint">
+
+                                        <span class="name">Will Sprunt</span>
+
+                                        <span class="position">CIO</span>
+
+                                        <div class="post-more-3 more">
+
+                                            <span>Read Story</span>
+                    
+                                            <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+                                            <svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#1264A3" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg>
+                                            <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            
+                            </div>
+                        <!-- </a> -->
+
+                    </div>
+ </div>
+             <!--    <div class="arrow">
+                    <div class="slid-icon">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div> -->
+</div>
+                <!-- extra -->
+            </div>
+            </div>
+
+
+            <!-- <div class="content-8-block-3">
+                
+                <div class="block-3">
+                    
+                    <span class="block-3-i-1"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                
+                    <span class="block-3-i-2"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                
+                    <span class="block-3-i-3"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                
+                </div>
+            
+            </div> -->
+
+    </div>
+
+    <section class="section-container-8-logos">
+
+        <div class="companies-block">
+    
+            <div class="companies">
+    
+                <div class="companies-list">
+    
+                    <div class="companies-logos">
+
+                        <div class="company-logo"><img src="png/clogo1.png" alt="company-logo"></div>
+                        <div class="company-logo"><img src="png/clogo2.png" alt="company-logo"></div>
+                        <div class="company-logo"><img src="png/clogo3.png" alt="company-logo"></div>
+                        <div class="company-logo"><img src="png/clogo4.png" alt="company-logo"></div>
+                        <div class="company-logo"><img src="png/clogo5.png" alt="company-logo"></div>
+                        <div class="company-logo"><img src="png/clogo.6.jfif" alt="company-logo"></div>
+                        <div class="company-logo"><img src="png/clogo7.png" alt="company-logo"></div>               
+                    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+        
+        <div class="pop-up-8">
+            <a href="#" class="pop-up-button">
+                See all customer stories <span><svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M13.78 6.47C13.9267 6.61667 14 6.79333 14 7C14 7.19333 13.9267 7.37 13.78 7.53L13.75 7.56L8.28 13.03C8.14 13.1767 7.96333 13.25 7.75 13.25C7.54333 13.25 7.36667 13.1767 7.22 13.03C7.15333 12.9633 7.1 12.8833 7.06 12.79C7.02 12.69 7 12.5933 7 12.5C7 12.2933 7.07333 12.1167 7.22 11.97L11.44 7.75H0.75C0.543334 7.75 0.366667 7.67667 0.22 7.53C0.0733335 7.38333 1.19209e-07 7.20667 1.19209e-07 7C1.19209e-07 6.79333 0.0733335 6.61667 0.22 6.47C0.366667 6.32333 0.543334 6.25 0.75 6.25H11.44L7.22 2.03C7.15333 1.96333 7.1 1.88333 7.06 1.79C7.02 1.69 7 1.59333 7 1.5C7 1.28667 7.07333 1.11 7.22 0.969999C7.38 0.823333 7.55667 0.75 7.75 0.75C7.84333 0.75 7.93667 0.77 8.03 0.81C8.13 0.849999 8.21333 0.903332 8.28 0.969999L13.78 6.47Z" fill="#1264A3" ></path></svg></span>
+            </a>
+        </div>
+    </section>
+    
+</section>
+
+
+
+<!-- content-9 start -->
+
+<section class="section-container-9">
+
+    <!-- <div > -->
+
+        <div class="content-9">
+
+            <div class="head-9">
+                <h2>Learn more about Slack Connect</h2>
+             </div>
+
+            <div class="row-list-9">
+            
+                <div class="cards-9">
+
+                    <!-- <div class="card-block"> -->
+                        
+                        <div class="card-block-1">
+                            
+                            <figure class="card-image">
+                                <img src="png/cardimg1.png" alt="card-image">
+                            </figure>
+
+                            <div class="image-header">
+                                <span>Blog</span>
+
+                                <h3>See why more than 100K organisations trust Slack Connect</h3>
+
+                            </div>
+                        </div>
+
+                    <!-- </div> -->
+                    
+                    <div class="card-block-2">
+
+                        <span>Read Story</span>
+
+                        <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+                        <svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#1264A3" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg>
+                        <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+                    </div>
+                
+                </div>
+
+                <div class="cards-9">
+
+                    <!-- <div class="card-block"> -->
+                        
+                        <div class="card-block-1">
+                            
+                            <figure class="card-image">
+                                <img src="png/cardimg2.jpg" alt="card-image">
+                            </figure>
+
+                            <div class="image-header">
+                                <span>Blog</span>
+
+                                <h3>Slack Connect for remote work</h3>
+
+                            </div>
+                        </div>
+
+                    <!-- </div> -->
+                    
+                    <div class="card-block-2">
+
+                        <span>Read Story</span>
+
+                        <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+                        <svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#1264A3" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg>
+                        <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+                    </div>
+                
+                </div>
+
+                <div class="cards-9">
+
+                    <!-- <div class="card-block"> -->
+                        
+                        <div class="card-block-1">
+                            
+                            <figure class="card-image">
+                                <img src="png/cardimg3.jpg" alt="card-image">
+                            </figure>
+
+                            <div class="image-header">
+                                <span>Blog</span>
+
+                                <h3>Guest accounts vs sharing a channel</h3>
+
+                            </div>
+                        </div>
+
+                    <!-- </div> -->
+                    
+                    <div class="card-block-2">
+
+                        <span>Learn More</span>
+
+                        <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+                        <svg viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg"><g stroke="#1264A3" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round"><path d="M1.548 7h21.904"/><path stroke-linejoin="round" d="M17 1l7 6-7 6"/></g></svg>
+                        <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+
+                    </div>
+                
+                </div>
+
+
+            </div>
+
+            <!-- <div class="line-6">
+
+                <p>Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your organisation.</p>
+
+            </div> -->
+     </div>
+
+    <!-- </div> -->
+
+</section>
+
+
+
+<!-- content-10 start -->
+
+<section class="section-container-10">
+
+    <!-- <div > -->
+
+        <div class="content-10">
+
+            <div class="head-10">
+                <h2>Frequently asked questions</h2>
+             </div>
+
+            <div class="row-list-10">
+            
+                <div class="list-10">
+
+                <button class="downarrow " id="point-0" >Is Slack Connect free?</button>
+                <p class="list-10-details" id="point-0-detail">No. Slack Connect is included in all <a href="">Paid Slack subscriptions.</a> 
+                    However, some of your partners might be using the free version of Slack, or not using Slack at all yet. 
+                    If you are on the Enterprise Grid subscription, teams on a free subscription can join channels they’re invited to in your org without having to upgrade or start a free trial. If you are on a different paid subscription, not a problem! Once you invite your partners to collaborate in Slack, if they’re eligible, they’ll get a 90-day free trial of Slack’s Pro subscription.
+                </p>
+                <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+
+                </div>
+
+                <div class="list-10">
+
+                    <button class="downarrow " id="point-1" >How do I start working with someone outside my company in Slack?</button>
+                    <p class="list-10-details" id="point-1-detail">
+                        You can <a href="">invite someone outside your company</a> to share a channel in Slack. Or, skip the channels for now and <a href="">send an invitation to start exchanging direct messages</a> – just like you would with other DMs!<br><br>
+                        It really only takes a few clicks to start working closely with vendors, customers and more. You are welcome to <a href="">book a free 20-minute call with a Slack expert</a> if you need help with getting started!
+                    </p>
+                    <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+
+                </div>
+
+                <div class="list-10">
+
+                    <button class="downarrow " id="point-2" >What’s the difference between Slack Connect and Slack channels?</button>
+                    <p class="list-10-details" id="point-2-detail">Great question! Channels in Slack transform the way that you work with your colleagues. Similarly, Slack Connect makes it possible to work in channels with people from outside your company, as well. With Slack Connect, you don’t need to give people access to your whole Slack workspace – just the channels that you need to collaborate in.</p>
+                    <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+
+                </div>
+                
+                <div class="list-10">
+
+                    <button class="downarrow " id="point-3" >How is Slack Connect more secure than email?</button>
+                    <p class="list-10-details" id="point-3-detail">With Slack Connect, admins can maintain control over their organisation’s data and monitor external access. And unlike collaborating via email – which leaves users open to the risk of spam and phishing – working in channels only allows teams to receive messages and files from verified members. Learn more about the enterprise-grade security built into Slack Connect <a href="">here</a>.</p>
+                    <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+
+                </div>
+
+                <div class="list-10 l-10">
+
+                    <button class="downarrow " id="point-4" >What are some recommended use cases for Slack Connect?</button>
+                    <p class="list-10-details" id="point-4-detail">Slack Connect makes working with people from other companies as fast and simple as working with your teammates on Slack. That makes it ideal for collaborating with external partners, vendors and customers. The fast, efficient communication in Slack channels and direct messages can help teams across companies to:
+                        <br>
+                        <br>
+                        • Build stronger customer relationships
+                        <br>
+                        • Decrease response times
+                        <br>
+                        • Speed up sales cycles
+                        <br>
+                        • Seize new opportunities
+                        <br>
+                        • Connect workflows across organisations
+                        <br>
+                        <br>
+
+                        Plus, it’s all backed by Slack’s enterprise-grade security. Get more ideas from our article on <a href="">communicating better with external partners</a>
+                    </p>
+                    <!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+
+                </div>
+                
+     </div>
+
+
+</section>
+
+
+<!-- content-11 start -->
+
+<section class="section-container-11">
+
+
+        <div class="content-11">
+
+              
+            <h3>Interested in Slack Connect?</h3>
+            
+            
+            <div class="content-11-button">
+            
+                <a href="#" class="" id="">Contact sales</a>
+
+            </div>
+
+        </div>
+
+
+</section>
+
+
+<!-- footer-start -->
+
+<footer class="footer-container">
+
+    <div class="footer-block-1">
+
+        <div class="block-1">
+
+        <div class="footer-logo">
+            
+            <a href="#">
+                <img src="png/slacklogo.png" alt="slack-logo">
+            </a>
+        
+        </div>
+        <nav class="lists-block">
+
+            <ul class="all-footer-lists">
+
+                <li class="footer-list-header f-list-1" id="footer-list-1">
+                    
+                    <span id="head-after-1" class="arrow-before">Why Slack?</span>
+
+                    <ul class="footer-list-items" id="footer-list-item-1">
+                        <li class="list-items">
+                            <a href="#"> Slack vs email</a>
+                        </li>
+
+                        <li class="list-items">
+                            <a href="#"> Channels</a>
+                        </li>
+                        
+                        <li class="list-items">
+                            <a href="#"> Engagement</a>
+                        </li>
+                        
+                        <li class="list-items">
+                            <a href="#"> Scale</a>
+                        </li>
+                        
+                        <li class="list-items">
+                            <a href="#"> Watch the demo</a>
+                        </li>
+                    
+                    </ul>
+
+                </li>
+
+                <li class="footer-list-header f-list-2" id="footer-list-2">
+                    
+                    <span id="head-after-2" class="arrow-before">Product</span>
+                        
+                    <ul class="footer-list-items" id="footer-list-item-2">
+                    
+                        <li class="list-items">
+                            <a href="#"> Features</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Integrations</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Enterprise </a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Solutions</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="footer-list-header f-list-3" id="footer-list-3">
+                    
+                    <span id="head-after-3" class="arrow-before">Pricing</span>
+
+                    
+                    <ul class="footer-list-items" id="footer-list-item-3">
+
+                        <li class="list-items">
+                            <a href="#"> Subscriptions</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Paid vs free</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="footer-list-header f-list-4" id="footer-list-4">
+                    
+                    <span id="head-after-4" class="arrow-before">Resources</span>
+
+
+                    <ul class="footer-list-items" id="footer-list-item-4">
+                        <li class="list-items">
+                            <a href="#"> Partners</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Developers</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Community</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Apps</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Blog</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Help Centre</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Events</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="footer-list-header f-list-5" id="footer-list-5">
+
+                    <span id="head-after-5" class="arrow-before">Company</span>
+
+                    <ul class="footer-list-items" id="footer-list-item-5">
+                        <li class="list-items">
+                            <a href="#"> About us</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Leadership</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> News</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Media kit</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Careers</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="#"> Slack shop</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+    </div>
+
+    <!-- <span class="splict-line"></span> -->
+
+
+    <div class="footer-block-2">
+
+        <div class="block-2">
+
+            <ul class="all-block-2-list">
+                <li class="block-2-list">
+                    <a href="#">Status</a>
+                </li>
+
+                <li class="block-2-list">
+                    <a href="#">Privacy</a>
+                </li>
+
+                <li class="block-2-list">
+                    <a href="#">Terms</a>
+                </li>
+
+                <li class="block-2-list b-2-align-0">
+                    <!-- <div class="foot-icon"> -->
+                        <svg fill="none" class="privacy-icon" height="14" viewBox="0 0 30 14" width="30">
+                            <path clip-rule="evenodd" d="m7.39998 12.8h6.80002l3.1-11.60005h-9.90002c-3.2 0-5.8 2.6-5.8 5.8 0 3.20005 2.6 5.80005 5.8 5.80005z" fill="#fff" fill-rule="evenodd"></path>
+                            <path clip-rule="evenodd" d="m22.6 0h-15.19998c-3.9 0-6.999996 3.1-6.999996 7s3.099996 7 6.999996 7h15.19998c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-20.99998 7c0-3.2 2.6-5.8 5.8-5.8h9.89998l-3.1 11.6h-6.79998c-3.2 0-5.8-2.6-5.8-5.8z" fill="#06f" fill-rule="evenodd"></path>
+                            <path d="m24.6001 4.0001c.2.2.2.6 0 .8l-2.1 2.2 2.2 2.2c.2.2.2.6 0 .8s-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0s-.2-.6 0-.8l2.1-2.2-2.2-2.2c-.2-.2-.2-.6 0-.8s.6-.2.8 0l2.2 2.2 2.2-2.2c.2-.2.6-.2.8 0z" fill="#fff"></path>
+                            <path d="m12.7 4.09995c.2.2.3.6.1.8l-4.2 4.9c-.1.1-.2.2-.3.2-.2.10005-.5.10005-.7-.1l-2.2-2.2c-.2-.2-.2-.6 0-.8s.6-.2.8 0l1.8 1.7 3.8-4.5c.2-.2.6-.2.9 0z" fill="#06f"></path>
+                        </svg>
+                        <!-- <i class="fa fa-check" aria-hidden="true" id="icon-1"></i>
+                        <i class="fa fa-times" aria-hidden="true" id="icon-2"></i> -->
+                    <!-- </div> -->
+                    <a href="#">Your privacy choices</a>
+                </li>
+
+                <li class="block-2-list">
+                    <a href="#">Cookie preferences</a>
+                </li>
+
+                <li class="block-2-list">
+                    <a href="#">Contact us</a>
+                </li>
+
+            </ul>
+
+            <span class="block-2-opt b-2-align-1">
+                <!-- <i class="fa fa-globe" aria-hidden="true" id="icon-3"></i> -->
+                <!-- <i class="fa-solid fa-globe" id="icon-3"></i> -->
+                <svg class="c-locale-new-switcher__globe" width="18" height="18" viewBox="0 0 100 100">
+                    <path d="M50.008 5.874c-11.308 0-22.613 4.3-31.219 12.906-17.211 17.211-17.211 45.226 0 62.438 17.211 17.21 45.195 17.21 62.406 0 17.212-17.212 17.243-45.227.032-62.438-8.606-8.606-19.912-12.906-31.22-12.906zm-3.125 6.125h.125v34.969H28.914c.58-10.29 4.095-20.385 10.594-28.157 2.27-2.715 4.757-4.983 7.375-6.812zm6.125 0h.062a38 38 0 0 1 7.407 6.812c6.498 7.772 10.014 17.866 10.593 28.157H53.008v-34.97zm-18.094 2.937c-7.508 8.978-11.557 20.412-12.156 32.032H11.977c.687-8.725 4.343-17.25 11.03-23.938a38.166 38.166 0 0 1 11.907-8.094zm30.219.062a38.176 38.176 0 0 1 11.812 8.063c6.685 6.685 10.369 15.19 11.063 23.906H77.227c-.598-11.59-4.623-23-12.094-31.969zm-53.156 37.97h10.78c.59 11.638 4.638 23.07 12.157 32.062a38.133 38.133 0 0 1-11.875-8.063c-6.7-6.7-10.376-15.258-11.062-24zm16.937 0h18.094V88.03h-.063c-2.644-1.838-5.146-4.135-7.437-6.875-6.512-7.787-10.025-17.876-10.594-28.188zm24.094 0H71.07c-.568 10.31-4.082 20.4-10.593 28.187-2.298 2.747-4.817 5.034-7.47 6.875V52.967zm24.219 0h10.812c-.679 8.741-4.39 17.295-11.094 24A38.07 38.07 0 0 1 65.04 85.06c.01-.011.022-.02.031-.031 7.52-8.992 11.568-20.424 12.157-32.063z"></path>
+                </svg>
+                <a href="#">Change region</a>
+                <!-- <i class="fa fa-chevron-down" aria-hidden="true" id="icon-4"></i> -->
+            </span>
+
+
+            <a href="#" class="block-2-download">
+                <!-- <i class="fa fa-cloud-download" aria-hidden="true"  id="icon-5"></i> -->
+                <i class="fa-solid fa-cloud-arrow-down"id="icon-5"></i>
+                Download Slack
+            </a>
+
+            <ul class="footer-icon-list">
+                <li class="foot-2-icons">
+                    <a href="#">
+                        <!-- <i class="fa fa-twitter" aria-hidden="true"></i> -->
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+
+                <li class="foot-2-icons">
+                    <a href="#">
+                        <!-- <i class="fa fa-facebook-official" aria-hidden="true"></i> -->
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </li>
+
+                <li class="foot-2-icons">
+                    <a href="#">
+                        <!-- <i class="fa fa-youtube-play" aria-hidden="true"></i> -->
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+
+                <li class="foot-2-icons">
+                    <a href="#">
+                        <!-- <i class="fa fa-linkedin-square" aria-hidden="true"></i> -->
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-block-3">
+
+        <div class="copyrights">
+
+            <span>©2023 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.</span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- jqury -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<!-- 1st -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==
+" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<!-- 2dt -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" 
+integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" 
+integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    // $(document).ready(function(){
+    //     $(".owl-carousel").owlCarousel();
+    // });
+    
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({  center: true,
+      items:1,
+      loop:true,
+      margin:10,
+      responsive:{
+        100:{
+            items:1
+        }
+    }});
+    
+  });
+</script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
